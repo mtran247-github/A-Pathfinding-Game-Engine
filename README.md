@@ -4,16 +4,18 @@ This project is an implementation of an A* algorithm-based pathfinding game engi
 
 ## Setup Instructions
 
-1. **Download the Code**: Clone the repository to your local machine.
-2. **Compile the Code**: Compile the Java files using your preferred Java compiler.
-3. **Run the Program**: Execute the compiled `MazeSolverToo` class with the following command in the terminal: `java MazeSolverToo maze1.txt`.
+1. Download Eclipse:  https://www.eclipse.org/downloads/
+2. **Download the Code**: Clone the repository to your local machine.
+3. **Compile the Code**: Compile the Java files using your preferred Java compiler.
+4. **Run the Program**: Execute the compiled `MazeSolverToo` class with the following command in the terminal: `java MazeSolverToo maze1.txt`.
    - On Eclipse: Run"->"Run Configurations
    - Make sure"Java Application->MazeSolverToo" is the active selection on the left-hand side
    - Select Arguments tab
    - Enter the filename and location in the "Program arguments" text box Ex: /Users/SomeName/Desktop/A-Pathfinding-Game-Engine/maze3.txt".
    - Replace `maze1.txt` with the filename of the maze you want to solve.
 5. **View Results**: The program will display the maze with colored tiles representing the progress of the pathfinding algorithm.
-6. **Interact with the Maze**: Observe the steps taken, the number of tiles remaining in the queue, and the total number of steps. 
+6. **Interact with the Maze**: Observe the steps taken, the number of tiles remaining in the queue, and the total number of steps.
+7. Try creating your own maze and test it out!
 
 ## Functional Specifics
 
