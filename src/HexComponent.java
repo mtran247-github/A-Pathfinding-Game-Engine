@@ -20,13 +20,10 @@ import javax.swing.JToggleButton;
 import javax.swing.SwingUtilities;
  
 /**
- * A six sided component. This is not guaranteed to be a perfect hexagon, it is just guaranteed to have six sides in
- * the form of a hexagon. To be a perfect hexagon the size of this component must have a height to width ratio of
- * 1 to 0.866
- *
- * @author keang
- * @date 5 Jun 2009
- *
+ * - It is just guaranteed to have six sides in the form of a hexagon
+ * - To be a perfect hexagon the size of this component must have a height to width ratio of 1 to 0.866
+ * 
+ *  @author Melissa Tran
  */
 
 public class HexComponent extends JComponent{
